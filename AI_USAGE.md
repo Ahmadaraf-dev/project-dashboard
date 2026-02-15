@@ -5,14 +5,10 @@
 
 **ChatGPT / OpenAI**
 
----
-
 //Parts AI Assisted
 
 - `filterProjects.ts` utility function  
 - Component boilerplate for `ProjectList`, `ProjectItem`, `ProjectFilters`, `ProjectDetail`
-
----
 
 //What I Changed and Rejected
 
@@ -23,15 +19,11 @@
 - Ensured **no mutation** of original data  
 - Added explicit **optional field handling** (`budget`, `endDate`, `description`)  
 
----
-
 //Disagreements / Cautions
 
 - Some AI suggestions used **heavy abstractions** or unnecessary hooks — I rejected them  
 - Avoided global state or context for a small dataset to keep simplicity and readability  
 - Did not implement virtualization or Redux as assignment scope does not require it  
-
----
 
 //Summary
 
