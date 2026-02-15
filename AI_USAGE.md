@@ -21,7 +21,7 @@
 
 //Disagreements / Cautions
 
-- Some AI suggestions used **heavy abstractions** or unnecessary hooks — I rejected them  
+- Some AI suggestions used **heavy abstractions** or unnecessary hooks was rejected  
 - Avoided global state or context for a small dataset to keep simplicity and readability  
 - Did not implement virtualization or Redux as assignment scope does not require it  
 
